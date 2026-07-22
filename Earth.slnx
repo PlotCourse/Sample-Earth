@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/0 - Code Generation/">
+    <Project Path="Earth.Generator/Earth.Generator.csproj" />
+    <Project Path="Earth.Initializer/Earth.Initializer.csproj" />
+  </Folder>
+  <Folder Name="/1 - AppHostAndContainers/">
+    <Project Path="Earth.AppHost/Earth.AppHost.csproj" />
+    <Project Path="Earth.Main/Earth.Main.csproj" />
+    <Project Path="Earth.ServiceDefaults/Earth.ServiceDefaults.csproj" />
+    <Project Path="Earth.Support/Earth.Support.csproj" />
+  </Folder>
+  <Folder Name="/2 - Shared/">
+    <Project Path="Earth.Shared\Earth.Shared.csproj" />
+  </Folder>
+  <Folder Name="/3 - Contracts/">
+    <Project Path="Earth.Ocean.Contract\Earth.Ocean.Contract.csproj" />
+    <Project Path="Earth.Dolphin.Contract\Earth.Dolphin.Contract.csproj" />
+  </Folder>
+  <Folder Name="/4 - Clients/">
+    <Project Path="Earth.Ocean.Client\Earth.Ocean.Client.csproj" />
+    <Project Path="Earth.Dolphin.Client\Earth.Dolphin.Client.csproj" />
+  </Folder>
+  <Folder Name="/5 - Tests/" />
+  <Project Path="Earth.Ocean\Earth.Ocean.csproj" />
+  <Project Path="Earth.Dolphin\Earth.Dolphin.csproj" />
+</Solution>

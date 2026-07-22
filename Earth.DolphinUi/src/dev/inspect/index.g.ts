@@ -1,0 +1,11 @@
+﻿import "../../../../Earth.Shared/ts/dev/custom-elements/inspect-container-data";
+import "../../../../Earth.Shared/ts/dev/custom-elements/inspect-container-section";
+import "../../../../Earth.Shared/ts/dev/custom-elements/inspect-icon";
+import "../../../../Earth.Shared/ts/dev/custom-elements/inspect-text";
+import "../../../../Earth.Shared/ts/dev/custom-elements/editors/value-editor";
+import "../../../../Earth.Shared/ts/dev/custom-elements/editors/set-editor";
+import "../../../../Earth.Shared/ts/dev/ioc/bindings.g";
+import "./proxies/ocean/broadcasts/ocean-surface.g";
+import "./proxies/ocean/services/water.g";
+import "./proxies/dolphin/services/tricks.g";
+import "./inspect-list.g";

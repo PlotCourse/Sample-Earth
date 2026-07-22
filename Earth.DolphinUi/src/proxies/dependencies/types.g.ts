@@ -1,0 +1,15 @@
+﻿export const ProxyTypes = {
+    Ocean_IWaterService: Symbol.for("Ocean_IWaterService"),
+    Dolphin_ITricksService: Symbol.for("Dolphin_ITricksService"),
+    Ocean_IOceanSurfaceBroadcast: Symbol.for("Ocean_IOceanSurfaceBroadcast"),
+    Ocean_MapToContractDolphinCoordinate: Symbol.for("Ocean_MapToContractDolphinCoordinate"),
+    Ocean_MapToContractHurricaneCoordinate: Symbol.for("Ocean_MapToContractHurricaneCoordinate"),
+    Ocean_MapToContractDolphinCoordinatePut: Symbol.for("Ocean_MapToContractDolphinCoordinatePut"),
+    Ocean_MapToContractHurricaneCoordinatePut: Symbol.for("Ocean_MapToContractHurricaneCoordinatePut"),
+    Ocean_MapFromContractDolphinCoordinate: Symbol.for("Ocean_MapFromContractDolphinCoordinate"),
+    Ocean_MapFromContractHurricaneCoordinate: Symbol.for("Ocean_MapFromContractHurricaneCoordinate"),
+    Ocean_MapFromContractDolphinCoordinatePut: Symbol.for("Ocean_MapFromContractDolphinCoordinatePut"),
+    Ocean_MapFromContractHurricaneCoordinatePut: Symbol.for("Ocean_MapFromContractHurricaneCoordinatePut"),
+    Dolphin_MapToContractDolphinCoordinate: Symbol.for("Dolphin_MapToContractDolphinCoordinate"),
+    Dolphin_MapFromContractDolphinCoordinate: Symbol.for("Dolphin_MapFromContractDolphinCoordinate"),
+};

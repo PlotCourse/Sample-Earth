@@ -1,0 +1,676 @@
+{
+  "comment": "This registry is used to store some file information between runs of PlotStax and typically should not be edited manually.  The PlotStax tool relies on this registry being in the solution root folder and stored in the same repository with the source code.",
+  "appHost": {
+    "isUiInitialized": true,
+    "isEfInitialized": false
+  },
+  "webApis": {
+    "initialized": [
+      "Support",
+      "Main"
+    ]
+  },
+  "toolManagedFiles": {
+    "filePaths": [
+      "Earth.Ocean.Contract\\Data\\Definitions.g.cs",
+      "Earth.Dolphin.Contract\\Data\\Definitions.g.cs",
+      "Earth.Ocean\\Data\\Definitions.g.cs",
+      "Earth.Dolphin\\Data\\Definitions.g.cs",
+      "Earth.Ocean.Contract\\ts\\data\\definitions.g.ts",
+      "Earth.Dolphin.Contract\\ts\\data\\definitions.g.ts",
+      "Earth.DolphinUi\\src\\data\\definitions.g.ts",
+      "Earth.DolphinUi\\src\\dev\\inspect\\definitions.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\ocean\\mappers\\requests\\base\\base-dolphin-coordinate-mapper.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\ocean\\mappers\\requests\\base\\base-hurricane-coordinate-mapper.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\ocean\\mappers\\requests\\base\\base-dolphin-coordinate-put-mapper.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\ocean\\mappers\\requests\\base\\base-hurricane-coordinate-put-mapper.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\ocean\\mappers\\results\\base\\base-dolphin-coordinate-mapper.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\ocean\\mappers\\results\\base\\base-hurricane-coordinate-mapper.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\ocean\\mappers\\results\\base\\base-dolphin-coordinate-put-mapper.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\ocean\\mappers\\results\\base\\base-hurricane-coordinate-put-mapper.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\dolphin\\mappers\\requests\\base\\base-dolphin-coordinate-mapper.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\dolphin\\mappers\\results\\base\\base-dolphin-coordinate-mapper.g.ts",
+      "Earth.DolphinUi\\src\\index-elements.g.ts",
+      "Earth.DolphinUi\\src\\base\\base-earth-ocean.g.ts",
+      "Earth.DolphinUi\\src\\dev\\inspect\\index.g.ts",
+      "Earth.DolphinUi\\src\\dev\\inspect\\inspect-list.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\dependencies\\bindings.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\dependencies\\types.g.ts",
+      "Earth.DolphinUi\\vite-defs.g.ts",
+      "Earth.Ocean.Client\\ts\\services\\base\\base-water-service.g.ts",
+      "Earth.Ocean.Client\\Services\\Base\\BaseWaterRestClient.g.cs",
+      "Earth.Ocean.Client\\Services\\Interfaces\\IWaterRestClient.g.cs",
+      "Earth.Ocean.Contract\\Services\\IWaterService.g.cs",
+      "Earth.Ocean\\Services\\Water.g.cs",
+      "Earth.Ocean\\Services\\Base\\BaseWater.g.cs",
+      "Earth.Ocean\\Services\\Contractors\\Base\\BaseWaterService.g.cs",
+      "Earth.Ocean\\Services\\Interfaces\\IWater.g.cs",
+      "Earth.DolphinUi\\src\\dev\\inspect\\proxies\\ocean\\services\\water.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\ocean\\services\\base\\base-water-service.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\ocean\\services\\base\\interfaces\\base-water-service.g.ts",
+      "Earth.Dolphin\\Proxies\\Ocean\\Services\\WaterService.g.cs",
+      "Earth.Dolphin\\Proxies\\Ocean\\Services\\Base\\BaseWaterService.g.cs",
+      "Earth.Dolphin\\Proxies\\Ocean\\Services\\Interfaces\\IWaterService.g.cs",
+      "Earth.Ocean.Client\\ts\\broadcasts\\base\\base-ocean-surface-broadcast.g.ts",
+      "Earth.Ocean.Client\\Broadcasts\\OceanSurfaceSubscriber.g.cs",
+      "Earth.Ocean.Client\\Broadcasts\\Base\\BaseOceanSurfaceRelayFromHub.g.cs",
+      "Earth.Ocean.Contract\\Broadcasts\\OceanSurfaceNotificationType.g.cs",
+      "Earth.Ocean.Contract\\Broadcasts\\IOceanSurfaceBroadcast.g.cs",
+      "Earth.Ocean.Contract\\Broadcasts\\IOceanSurfacePublisher.g.cs",
+      "Earth.Ocean\\Broadcasts\\Base\\BaseOceanSurfaceExternalPublisher.g.cs",
+      "Earth.Ocean\\Broadcasts\\Base\\BaseOceanSurfaceHub.g.cs",
+      "Earth.Ocean\\Broadcasts\\Base\\BaseOceanSurfaceInternalPublisher.g.cs",
+      "Earth.Ocean\\Broadcasts\\Base\\BaseOceanSurfaceInternalSubscriber.g.cs",
+      "Earth.Ocean\\Broadcasts\\Base\\BaseOceanSurfaceRelayToExternalPublisher.g.cs",
+      "Earth.Ocean\\Broadcasts\\Base\\BaseOceanSurfaceRelayToHub.g.cs",
+      "Earth.Ocean\\Broadcasts\\Interfaces\\IOceanSurfaceExternalPublisher.g.cs",
+      "Earth.Ocean\\Broadcasts\\Interfaces\\IOceanSurfaceInternalBroadcast.g.cs",
+      "Earth.Ocean\\Broadcasts\\Interfaces\\IOceanSurfaceInternalPublisher.g.cs",
+      "Earth.Ocean\\Broadcasts\\Interfaces\\IOceanSurfaceRelayToExternalPublisher.g.cs",
+      "Earth.DolphinUi\\src\\dev\\inspect\\proxies\\ocean\\broadcasts\\ocean-surface.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\ocean\\broadcasts\\base\\base-ocean-surface-broadcast.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\ocean\\broadcasts\\base\\interfaces\\base-ocean-surface-broadcast.g.ts",
+      "Earth.Dolphin\\Proxies\\Ocean\\Broadcasts\\OceanSurfaceInternalPublisher.g.cs",
+      "Earth.Dolphin\\Proxies\\Ocean\\Broadcasts\\OceanSurfaceInternalSubscriber.g.cs",
+      "Earth.Dolphin\\Proxies\\Ocean\\Broadcasts\\OceanSurfaceRelayToInternalPublisher.g.cs",
+      "Earth.Dolphin\\Proxies\\Ocean\\Broadcasts\\Interfaces\\IOceanSurfaceInternalBroadcast.g.cs",
+      "Earth.Dolphin\\Proxies\\Ocean\\Broadcasts\\Interfaces\\IOceanSurfaceInternalPublisher.g.cs",
+      "Earth.Dolphin\\Proxies\\Ocean\\Broadcasts\\Interfaces\\IOceanSurfaceRelayToInternalPublisher.g.cs",
+      "Earth.Ocean.Client\\Base\\BaseClientSetupHelper.g.cs",
+      "Earth.Ocean.Contract\\HubEndpoints.g.cs",
+      "Earth.Ocean\\SetupHelpers\\Base\\BaseDependenciesHelper.g.cs",
+      "Earth.Ocean\\SetupHelpers\\Base\\BaseInitializationHelper.g.cs",
+      "Earth.Support\\Base\\BaseRestServiceSetupHelper-Ocean.g.cs",
+      "Earth.Support\\Base\\BaseSignalRSetupHelper-Ocean.g.cs",
+      "Earth.Dolphin.Client\\ts\\services\\base\\base-tricks-service.g.ts",
+      "Earth.Dolphin.Client\\Services\\Base\\BaseTricksRestClient.g.cs",
+      "Earth.Dolphin.Client\\Services\\Interfaces\\ITricksRestClient.g.cs",
+      "Earth.Dolphin.Contract\\Services\\ITricksService.g.cs",
+      "Earth.Dolphin\\Services\\Tricks.g.cs",
+      "Earth.Dolphin\\Services\\Base\\BaseTricks.g.cs",
+      "Earth.Dolphin\\Services\\Contractors\\Base\\BaseTricksService.g.cs",
+      "Earth.Dolphin\\Services\\Interfaces\\ITricks.g.cs",
+      "Earth.DolphinUi\\src\\dev\\inspect\\proxies\\dolphin\\services\\tricks.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\dolphin\\services\\base\\base-tricks-service.g.ts",
+      "Earth.DolphinUi\\src\\proxies\\dolphin\\services\\base\\interfaces\\base-tricks-service.g.ts",
+      "Earth.Dolphin\\MonitorOcean.g.cs",
+      "Earth.Dolphin\\Base\\BaseMonitorOcean.g.cs",
+      "Earth.Dolphin\\Interfaces\\IMonitorOcean.g.cs",
+      "Earth.Dolphin\\Base\\BaseMonitorOcean-Ocean-OceanSurface.g.cs",
+      "Earth.Dolphin.Client\\Base\\BaseClientSetupHelper.g.cs",
+      "Earth.Dolphin\\Proxies\\DefaultInitializers\\Base\\BaseDefaultServiceClientInitializer.g.cs",
+      "Earth.Dolphin\\Proxies\\DefaultInitializers\\DefaultServiceClientInitializer.g.cs",
+      "Earth.Dolphin\\Proxies\\DefaultInitializers\\Interfaces\\IDefaultServiceClientInitializer.g.cs",
+      "Earth.Dolphin\\SetupHelpers\\Base\\BaseDependenciesHelper.g.cs",
+      "Earth.Dolphin\\SetupHelpers\\Base\\BaseInitializationHelper.g.cs",
+      "Earth.Main\\Base\\BaseRestServiceSetupHelper-Dolphin.g.cs",
+      "Earth.Support\\Base\\BaseRestServiceSetupHelper.g.cs",
+      "Earth.Support\\Base\\BaseSignalRSetupHelper.g.cs",
+      "Earth.Support\\Extensions.g.cs",
+      "Earth.Main\\Base\\BaseClientSetupHelper.g.cs",
+      "Earth.Main\\Base\\BaseRestServiceSetupHelper.g.cs",
+      "Earth.Main\\Extensions.g.cs",
+      "Earth.Dolphin\\Proxies\\Ocean\\Services\\Base\\BaseDefaultServiceClientInitializer.g.cs",
+      "Earth.Dolphin\\Proxies\\Ocean\\Services\\DefaultServiceClientInitializer.g.cs",
+      "Earth.Dolphin\\Proxies\\Ocean\\Services\\Interfaces\\IDefaultServiceClientInitializer.g.cs",
+      "Earth.AppHost\\Base\\BaseOrchestrationHelper.g.cs",
+      "Earth.Shared\\Base\\BaseUtilsImpl.g.cs",
+      "Earth.Shared\\Base\\BaseWebApiHelper.g.cs",
+      "Earth.Shared\\Broadcasts\\InProc\\Base\\BasePublisher.g.cs",
+      "Earth.Shared\\Broadcasts\\InProc\\Base\\BaseTransmissionQueue.g.cs",
+      "Earth.Shared\\Broadcasts\\InProc\\Base\\BaseUnsubscriber.g.cs",
+      "Earth.Shared\\Broadcasts\\InProc\\Interfaces\\IPublisher.g.cs",
+      "Earth.Shared\\Broadcasts\\InProc\\Unsubscriber.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Base\\BaseClient.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Base\\BaseClientSequenceTracker.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Base\\BaseConfirmationTimeoutOptions.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Base\\BaseCurrentSequenceNumber.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Base\\BaseNotification.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Base\\BaseNotificationTypeDetails.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Base\\BasePublisher.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Base\\BasePublisherOptions.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Base\\BaseRelayFromHub.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Base\\BaseRetryPolicy.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Base\\ClientReliability.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Base\\NotificationCategory.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Client.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\ConfirmationTimeoutOptions.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\CurrentSequenceNumber.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Interfaces\\IClientSequenceTracker.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Interfaces\\IPublisher.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Interfaces\\IRetryPolicy.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Notification.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\NotificationTypeDetails.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\Publisher.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\RelayFromHub.g.cs",
+      "Earth.Shared\\Broadcasts\\Remote\\RetryPolicy.g.cs",
+      "Earth.Shared\\Data\\Broadcasts\\Base\\BaseConfirmationExpectation.g.cs",
+      "Earth.Shared\\Data\\Broadcasts\\Base\\BaseSequenceTracking.g.cs",
+      "Earth.Shared\\Data\\Broadcasts\\ConfirmationExpectation.g.cs",
+      "Earth.Shared\\Data\\Broadcasts\\SequenceTracking.g.cs",
+      "Earth.Shared\\Data\\Mappers\\Base\\BaseMapper.g.cs",
+      "Earth.Shared\\Data\\Mappers\\Base\\BaseMapTracker.g.cs",
+      "Earth.Shared\\Data\\Mappers\\Extensions.g.cs",
+      "Earth.Shared\\Data\\Mappers\\IMapEnum.g.cs",
+      "Earth.Shared\\Data\\Mappers\\IMapRecord.g.cs",
+      "Earth.Shared\\Data\\Mappers\\MapExtensionConstructorAttribute.g.cs",
+      "Earth.Shared\\Data\\PageKeysetList.g.cs",
+      "Earth.Shared\\Data\\ReadOnlyDictionary.g.cs",
+      "Earth.Shared\\Data\\ReadOnlyRecords.g.cs",
+      "Earth.Shared\\Data\\Result.g.cs",
+      "Earth.Shared\\Data\\Wrappers\\Definitions.g.cs",
+      "Earth.Shared\\Utils.g.cs",
+      "Earth.Shared\\ts\\base\\base-date-sharp.g.ts",
+      "Earth.Shared\\ts\\base\\base-retry-policy.g.ts",
+      "Earth.Shared\\ts\\base\\base-time-only.g.ts",
+      "Earth.Shared\\ts\\base\\base-time-span.g.ts",
+      "Earth.Shared\\ts\\base\\base-utils-impl.g.ts",
+      "Earth.Shared\\ts\\base\\time-frame.g.ts",
+      "Earth.Shared\\ts\\dev\\base\\base-broadcast-received-info.g.ts",
+      "Earth.Shared\\ts\\dev\\base\\base-data-input-enum.g.ts",
+      "Earth.Shared\\ts\\dev\\base\\base-data-input-record.g.ts",
+      "Earth.Shared\\ts\\dev\\base\\base-data-input-value-root.g.ts",
+      "Earth.Shared\\ts\\dev\\base\\base-data-input-value.g.ts",
+      "Earth.Shared\\ts\\dev\\base\\base-data-input.g.ts",
+      "Earth.Shared\\ts\\dev\\base\\base-dev-utils-impl.g.ts",
+      "Earth.Shared\\ts\\dev\\base\\base-enum-input-value.g.ts",
+      "Earth.Shared\\ts\\dev\\custom-elements\\base\\base-inspect-broadcast.g.ts",
+      "Earth.Shared\\ts\\dev\\custom-elements\\base\\base-inspect-container-data.g.ts",
+      "Earth.Shared\\ts\\dev\\custom-elements\\base\\base-inspect-container-section.g.ts",
+      "Earth.Shared\\ts\\dev\\custom-elements\\base\\base-inspect-container.g.ts",
+      "Earth.Shared\\ts\\dev\\custom-elements\\base\\base-inspect-icon.g.ts",
+      "Earth.Shared\\ts\\dev\\custom-elements\\base\\base-inspect-list.g.ts",
+      "Earth.Shared\\ts\\dev\\custom-elements\\base\\base-inspect-service.g.ts",
+      "Earth.Shared\\ts\\dev\\custom-elements\\base\\base-inspect-text.g.ts",
+      "Earth.Shared\\ts\\dev\\custom-elements\\editors\\base\\base-set-editor.g.ts",
+      "Earth.Shared\\ts\\dev\\custom-elements\\editors\\base\\base-value-editor.g.ts",
+      "Earth.Shared\\ts\\dev\\data-input-type.g.ts",
+      "Earth.Shared\\ts\\dev\\dev-utils.g.ts",
+      "Earth.Shared\\ts\\dev\\factories\\data-input-value-factory.g.ts",
+      "Earth.Shared\\ts\\dev\\factories\\interfaces\\data-input-value-factory.g.ts",
+      "Earth.Shared\\ts\\dev\\ioc\\bindings.g.ts",
+      "Earth.Shared\\ts\\dev\\ioc\\dev-types.g.ts",
+      "Earth.Shared\\ts\\interfaces\\confirmation-expectation.g.ts",
+      "Earth.Shared\\ts\\interfaces\\loggable-event.g.ts",
+      "Earth.Shared\\ts\\interfaces\\map-enum.g.ts",
+      "Earth.Shared\\ts\\interfaces\\map-record.g.ts",
+      "Earth.Shared\\ts\\interfaces\\read-only-dictionary.g.ts",
+      "Earth.Shared\\ts\\interfaces\\read-only-records.g.ts",
+      "Earth.Shared\\ts\\interfaces\\results.g.ts",
+      "Earth.Shared\\ts\\interfaces\\sequence-tracking.g.ts",
+      "Earth.Shared\\ts\\ioc\\base\\base-ioc.g.ts",
+      "Earth.Shared\\ts\\ioc\\interfaces\\ioc-resolver.g.ts",
+      "Earth.Shared\\ts\\utils.g.ts"
+    ]
+  },
+  "devManagedFiles": {
+    "files": [
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\ocean\\mappers\\requests\\dolphin-coordinate-mapper.ts",
+        "hash": "9896dd77b2a08f396d58d78f629dbd87"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\ocean\\mappers\\requests\\hurricane-coordinate-mapper.ts",
+        "hash": "c4fbd9b5c72fa9d6b23a34fa6b118b6b"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\ocean\\mappers\\requests\\dolphin-coordinate-put-mapper.ts",
+        "hash": "051c2a3dedb74c46981513928dfd3f25"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\ocean\\mappers\\requests\\hurricane-coordinate-put-mapper.ts",
+        "hash": "fb7001fc409960b77d90184b181ae6b7"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\ocean\\mappers\\results\\dolphin-coordinate-mapper.ts",
+        "hash": "9896dd77b2a08f396d58d78f629dbd87"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\ocean\\mappers\\results\\hurricane-coordinate-mapper.ts",
+        "hash": "c4fbd9b5c72fa9d6b23a34fa6b118b6b"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\ocean\\mappers\\results\\dolphin-coordinate-put-mapper.ts",
+        "hash": "051c2a3dedb74c46981513928dfd3f25"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\ocean\\mappers\\results\\hurricane-coordinate-put-mapper.ts",
+        "hash": "fb7001fc409960b77d90184b181ae6b7"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\dolphin\\mappers\\requests\\dolphin-coordinate-mapper.ts",
+        "hash": "9896dd77b2a08f396d58d78f629dbd87"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\dolphin\\mappers\\results\\dolphin-coordinate-mapper.ts",
+        "hash": "9896dd77b2a08f396d58d78f629dbd87"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\index.html",
+        "hash": "5e53447e5f5bb14d8fe4fd0e4648333a"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\index.ts",
+        "hash": "cb85905c468bf9a4791f647a67876878"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\dev\\index.ts",
+        "hash": "a1b3aeaa7f35982d55476ae835922675"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\earth-ocean.ts",
+        "hash": "8e7346fe4e41d86e5cefb2136e4702c1"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\dts\\typings.d.ts",
+        "hash": "21043e2f1e1bbeb2d1e2529fb186be52"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\package.json",
+        "hash": "12b66a71e050bcdc15c01ff912afbd0b"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\dependencies\\bindings.ts",
+        "hash": "12bcf90a533c37e072e02c6f64fa4a76"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\dev\\dev-dashboard.ts",
+        "hash": "bd4cb6a644a627be41f6509697257ed9"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\shared.ts",
+        "hash": "cbf0e329348fb8760d5845f3a5601c66"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\tsconfig.json",
+        "hash": "ed249e2e6a8f7d97f2865ac3b6ceee72"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\vite.config.ts",
+        "hash": "0de1af554e1b342bb78ceff98d305fbc"
+      },
+      {
+        "filePath": "Earth.Ocean.Client\\Services\\WaterRestClient.cs",
+        "hash": "86e328ccd988bb686a2280493e70ad94"
+      },
+      {
+        "filePath": "Earth.Ocean.Client\\ts\\services\\water-service.ts",
+        "hash": "2ea769dcf740b247b8cd39d40ce522b5"
+      },
+      {
+        "filePath": "Earth.Ocean\\Services\\Water.cs",
+        "hash": "579073e659c623b28b7db07981507f8a"
+      },
+      {
+        "filePath": "Earth.Ocean\\Services\\Contractors\\WaterService.cs",
+        "hash": "69ed9d23f818b8631b6e83657ec12f46"
+      },
+      {
+        "filePath": "Earth.Ocean\\Services\\Interfaces\\IWater.cs",
+        "hash": "bc413982ea50de505f93e74390038fb1"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\ocean\\services\\water-service.ts",
+        "hash": "5a45e884c4003d66836c1fac6045dedd"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\ocean\\services\\interfaces\\water-service.ts",
+        "hash": "e7cbf09275079a697d7d4aee50884619"
+      },
+      {
+        "filePath": "Earth.Dolphin\\Proxies\\Ocean\\Services\\WaterService.cs",
+        "hash": "a1500812575063a330706f781987ef5a"
+      },
+      {
+        "filePath": "Earth.Ocean.Client\\ts\\broadcasts\\ocean-surface-broadcast.ts",
+        "hash": "810411b9459a0ce3ca38b31280a350b2"
+      },
+      {
+        "filePath": "Earth.Ocean.Client\\Broadcasts\\OceanSurfaceRelayFromHub.cs",
+        "hash": "fd2a77093ec79893fee4c88b0a3999bc"
+      },
+      {
+        "filePath": "Earth.Ocean\\Broadcasts\\OceanSurfaceExternalPublisher.cs",
+        "hash": "1ad622fc962413d3e22c50c785a1d8de"
+      },
+      {
+        "filePath": "Earth.Ocean\\Broadcasts\\OceanSurfaceHub.cs",
+        "hash": "40b616491d3a0b5203ad1abdb1e75d74"
+      },
+      {
+        "filePath": "Earth.Ocean\\Broadcasts\\OceanSurfaceInternalPublisher.cs",
+        "hash": "67020e002690af4123fe4ec91f16a4c6"
+      },
+      {
+        "filePath": "Earth.Ocean\\Broadcasts\\OceanSurfaceInternalSubscriber.cs",
+        "hash": "20223e059422ffbea1c0fe1c22d9a930"
+      },
+      {
+        "filePath": "Earth.Ocean\\Broadcasts\\OceanSurfaceRelayToExternalPublisher.cs",
+        "hash": "139901497d310db23de9679957a6f8d0"
+      },
+      {
+        "filePath": "Earth.Ocean\\Broadcasts\\OceanSurfaceRelayToHub.cs",
+        "hash": "c55d56fb97179856e464d1f684ce2127"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\ocean\\broadcasts\\ocean-surface-broadcast.ts",
+        "hash": "2a34bd0a60c0fa9d78611df7ce65398d"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\ocean\\broadcasts\\interfaces\\ocean-surface-broadcast.ts",
+        "hash": "58dedabcb3c897c0723185026bc947cd"
+      },
+      {
+        "filePath": "Earth.Ocean.Client\\ClientSetupHelper.cs",
+        "hash": "d2eaae94c720c444c4d80d2919956bf0"
+      },
+      {
+        "filePath": "Earth.Ocean\\Extensions.cs",
+        "hash": "fea33b2ec0f8ee6fae0dbbcbe783bda3"
+      },
+      {
+        "filePath": "Earth.Ocean\\SetupHelpers\\DependenciesHelper.cs",
+        "hash": "d1ee3beb24ad39e343126f9171c7068a"
+      },
+      {
+        "filePath": "Earth.Ocean\\SetupHelpers\\InitializationHelper.cs",
+        "hash": "f401095fb4d725fd9c189e194b380d27"
+      },
+      {
+        "filePath": "Earth.Dolphin.Client\\Services\\TricksRestClient.cs",
+        "hash": "eed2882e348e08bfc037c2eda7425059"
+      },
+      {
+        "filePath": "Earth.Dolphin.Client\\ts\\services\\tricks-service.ts",
+        "hash": "9b5d3bac5a523d5a17fae89e20bd40ac"
+      },
+      {
+        "filePath": "Earth.Dolphin\\Services\\Tricks.cs",
+        "hash": "b0e56a2654eb28db42198bb180ce9fd9"
+      },
+      {
+        "filePath": "Earth.Dolphin\\Services\\Contractors\\TricksService.cs",
+        "hash": "3e24b5fe51e7135b74906b7384b725cb"
+      },
+      {
+        "filePath": "Earth.Dolphin\\Services\\Interfaces\\ITricks.cs",
+        "hash": "07b0395e2f52b3535b516e272628c673"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\dolphin\\services\\tricks-service.ts",
+        "hash": "115ff5e16642608726e9e256c9ca3c22"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\dolphin\\services\\interfaces\\tricks-service.ts",
+        "hash": "ea424dd42eeb46a17fbf622f802a3b12"
+      },
+      {
+        "filePath": "Earth.Dolphin\\MonitorOcean.cs",
+        "hash": "3b40b74c6749c504036790cca108d1c5"
+      },
+      {
+        "filePath": "Earth.Dolphin\\Interfaces\\IMonitorOcean.cs",
+        "hash": "456f9c55a7bcc9340026ea619914f955"
+      },
+      {
+        "filePath": "Earth.Dolphin.Client\\ClientSetupHelper.cs",
+        "hash": "6745a709979434bef90cc8489155de47"
+      },
+      {
+        "filePath": "Earth.Dolphin\\Extensions.cs",
+        "hash": "6c80b1898792b02087b19a0ec196de50"
+      },
+      {
+        "filePath": "Earth.Dolphin\\Proxies\\DefaultInitializers\\DefaultServiceClientInitializer.cs",
+        "hash": "3e575b3ccb6b7d343864ff69ad75e920"
+      },
+      {
+        "filePath": "Earth.Dolphin\\SetupHelpers\\DependenciesHelper.cs",
+        "hash": "269193f98addc1f5a29265a5832d6289"
+      },
+      {
+        "filePath": "Earth.Dolphin\\SetupHelpers\\InitializationHelper.cs",
+        "hash": "ea7771fb499b7f9cc9010b399948c5f7"
+      },
+      {
+        "filePath": "Earth.Support\\Extensions.cs",
+        "hash": "6c751a7ced10b2b7e85512a9ad9c3baf"
+      },
+      {
+        "filePath": "Earth.Support\\RestServiceSetupHelper.cs",
+        "hash": "1a08998bba676d6f4b6b09d9326ed046"
+      },
+      {
+        "filePath": "Earth.Support\\SignalRSetupHelper.cs",
+        "hash": "f9de538f795fe5ae616eb305dad986a6"
+      },
+      {
+        "filePath": "Earth.Support\\WebApiHelper.cs",
+        "hash": "d8e6aa295b301f8dca1dca1aeff8c2f4"
+      },
+      {
+        "filePath": "Earth.Main\\ClientSetupHelper.cs",
+        "hash": "995ad131d303afc1cfabb491d0accdf9"
+      },
+      {
+        "filePath": "Earth.Main\\Extensions.cs",
+        "hash": "e3ab4ff2edba87e5525c1374a0de9e66"
+      },
+      {
+        "filePath": "Earth.Main\\RestServiceSetupHelper.cs",
+        "hash": "16596c76aca27b7d206f40f7fe03e37f"
+      },
+      {
+        "filePath": "Earth.Main\\WebApiHelper.cs",
+        "hash": "c6017c291ff8fbe49505580d846cc8bd"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\ocean\\shared.ts",
+        "hash": "e139e357aceef1e07c7a76a3dc4f4eae"
+      },
+      {
+        "filePath": "Earth.DolphinUi\\src\\proxies\\dolphin\\shared.ts",
+        "hash": "f137b78d042c8a93762fa3809a18309a"
+      },
+      {
+        "filePath": "Earth.Dolphin\\Proxies\\Ocean\\Services\\DefaultServiceClientInitializer.cs",
+        "hash": "c53142380f3b9329d0e55bcdb6c5147d"
+      },
+      {
+        "filePath": "Earth.AppHost\\OrchestrationHelper.cs",
+        "hash": "12324d88b0baf1c0280c4e90aa78be0a"
+      },
+      {
+        "filePath": "Earth.Shared\\Broadcasts\\InProc\\Publisher.cs",
+        "hash": "c22c025d44783c7222caf5cb8730af23"
+      },
+      {
+        "filePath": "Earth.Shared\\Broadcasts\\InProc\\TransmissionQueue.cs",
+        "hash": "095c9cef9196240821dc5e82853cf735"
+      },
+      {
+        "filePath": "Earth.Shared\\Broadcasts\\InProc\\Unsubscriber.cs",
+        "hash": "1779146910ee2c3158b4f7276d6e2b40"
+      },
+      {
+        "filePath": "Earth.Shared\\Broadcasts\\Remote\\Client.cs",
+        "hash": "d7476562ffe9b0ec483c3eed42154272"
+      },
+      {
+        "filePath": "Earth.Shared\\Broadcasts\\Remote\\ClientSequenceTracker.cs",
+        "hash": "87bf5911e8f01a704168ae59f1298dce"
+      },
+      {
+        "filePath": "Earth.Shared\\Broadcasts\\Remote\\ConfirmationTimeoutOptions.cs",
+        "hash": "43f265f28cd08eca6a636243c2f82815"
+      },
+      {
+        "filePath": "Earth.Shared\\Broadcasts\\Remote\\CurrentSequenceNumber.cs",
+        "hash": "06e7bed66486fa00fa61539e35a0fabe"
+      },
+      {
+        "filePath": "Earth.Shared\\Broadcasts\\Remote\\Notification.cs",
+        "hash": "c79bad76951f689ce339050b6c35dca4"
+      },
+      {
+        "filePath": "Earth.Shared\\Broadcasts\\Remote\\NotificationTypeDetails.cs",
+        "hash": "add49b1d653c90f41615ce7ff7b21006"
+      },
+      {
+        "filePath": "Earth.Shared\\Broadcasts\\Remote\\Publisher.cs",
+        "hash": "85ef49429ae99a77c7ecfcb8b4b637e2"
+      },
+      {
+        "filePath": "Earth.Shared\\Broadcasts\\Remote\\PublisherOptions.cs",
+        "hash": "ca412de9002d5746d7e946a253902714"
+      },
+      {
+        "filePath": "Earth.Shared\\Broadcasts\\Remote\\RelayFromHub.cs",
+        "hash": "3e6f61bb34ce2b351a58aed8dc540859"
+      },
+      {
+        "filePath": "Earth.Shared\\Broadcasts\\Remote\\RetryPolicy.cs",
+        "hash": "d64c5ea5dc367858ef7e2a9c448d13b5"
+      },
+      {
+        "filePath": "Earth.Shared\\Data\\Broadcasts\\ConfirmationExpectation.cs",
+        "hash": "76548c26163a601b4f9b95844cf860f0"
+      },
+      {
+        "filePath": "Earth.Shared\\Data\\Broadcasts\\SequenceTracking.cs",
+        "hash": "adbbc4800e5ca7d7ab96b6312aa92361"
+      },
+      {
+        "filePath": "Earth.Shared\\Data\\Mappers\\Mapper.cs",
+        "hash": "67029caced964aac6f3ec344b8ac2d25"
+      },
+      {
+        "filePath": "Earth.Shared\\Data\\Mappers\\MapTracker.cs",
+        "hash": "73311ba7e757f4f6c5e73a93714fb12e"
+      },
+      {
+        "filePath": "Earth.Shared\\tsconfig.json",
+        "hash": "884faf8a9ae4df572504949a9389412c"
+      },
+      {
+        "filePath": "Earth.Shared\\UtilsImpl.cs",
+        "hash": "77ea110025df303280355978603369ee"
+      },
+      {
+        "filePath": "Earth.Shared\\WebApiHelper.cs",
+        "hash": "b5e8f578da10ac054bb589db07415411"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\cookies.ts",
+        "hash": "40003a37cc7196a5987ac366326314ae"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\date-sharp.ts",
+        "hash": "c4289bcbfb0a41ee0b0fe4c0509b42a2"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\broadcast-received-info.ts",
+        "hash": "d026add57d0818542edf7b3cf9b416d3"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\custom-elements\\editors\\set-editor.ts",
+        "hash": "806843e789b2bb01d4e24dc965f0f1bf"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\custom-elements\\editors\\value-editor.ts",
+        "hash": "ce7975092e9e30f83f435d5f0e8d69c5"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\custom-elements\\inspect-broadcast.ts",
+        "hash": "5c424b7f16449f2863e0b015f4a8d082"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\custom-elements\\inspect-container-data.ts",
+        "hash": "c260f8cd7a7c46f98e208a416298b5ca"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\custom-elements\\inspect-container-section.ts",
+        "hash": "8b7f9707882b39e735a16ba963d440c1"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\custom-elements\\inspect-container.ts",
+        "hash": "bc60eff084ec4af24a16f9fe58d9d66e"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\custom-elements\\inspect-icon.ts",
+        "hash": "ed27bb4f5bb0c18b8eec1f61b9aa48d3"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\custom-elements\\inspect-list.ts",
+        "hash": "acfee542eb8f1b1ff040a19bfbc0868e"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\custom-elements\\inspect-service.ts",
+        "hash": "8aa94cdf97ef6f4949c565903e9d263a"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\custom-elements\\inspect-text.ts",
+        "hash": "cf913be6c3c8610d7ade79460720fc66"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\data-input-enum.ts",
+        "hash": "61989ea7cf22d96481d63bb05f04b31b"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\data-input-record.ts",
+        "hash": "f4580a2a5d0d4b94a34eca2b5df98a18"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\data-input-value-root.ts",
+        "hash": "153de9ccf684ba471de55576c6558e2a"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\data-input-value.ts",
+        "hash": "9683a9b54c99cfdf6b82c0d237160d39"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\data-input.ts",
+        "hash": "d02055ad34dff51ef6ccaede847390f3"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\dev-utils-impl.ts",
+        "hash": "1692dffb12f6a87ab7cc9eab470384fd"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\dev\\enum-input-value.ts",
+        "hash": "26df9287f6962aa2e2d7e2e51c91615b"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\ioc\\ioc.ts",
+        "hash": "cb45ab5cf2ab0ba3d02748294ef08d6a"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\mixins\\observable-disconnected-mixin.ts",
+        "hash": "14955ac04abfd773018be1e2e5de6470"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\retry-policy.ts",
+        "hash": "a6af731d36c487cec0947952348a2465"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\time-only.ts",
+        "hash": "ae95bd761bd2326d3987ded47460ee09"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\time-span.ts",
+        "hash": "5ccd7f5bc7bbc11c54cc1244b7984cf8"
+      },
+      {
+        "filePath": "Earth.Shared\\ts\\utils-impl.ts",
+        "hash": "82b08b5dfcc002761af493fb1bbad8c6"
+      }
+    ]
+  },
+  "toolEditedFiles": {
+    "projectFiles": []
+  },
+  "oneTimeWarnings": {
+    "warningKeys": []
+  }
+}

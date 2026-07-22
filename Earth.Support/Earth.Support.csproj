@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OpenApiGenerateDocuments>false</OpenApiGenerateDocuments>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.10" />
+    <PackageReference Include="Microsoft.OpenApi" Version="2.11.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Earth.Ocean\Earth.Ocean.csproj" />
+    <ProjectReference Include="..\Earth.ServiceDefaults\Earth.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\Earth.Shared\Earth.Shared.csproj" />
+  </ItemGroup>
+</Project>
