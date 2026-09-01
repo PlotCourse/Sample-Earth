@@ -10,7 +10,7 @@
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="PlotStax.Gen.Client" Version="1.5.0" />
+    <PackageReference Include="PlotStax.Gen.Client" Version="2.0.0" />
   </ItemGroup>
   <ItemGroup>
     <EditorConfigFiles Remove=".editorconfig" />

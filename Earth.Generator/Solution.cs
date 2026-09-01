@@ -8,7 +8,6 @@ public static class Solution
     public static SolutionBuilder GetSolutionBuilder()
     {
         var slnBuilder = new SolutionBuilder("Earth")
-            .WithToken("SAMPLES_ONLY_TOKEN") // this free-use token works with small numbers of structures
             .WithOptions(o =>
             {
                 o.AppHostDirectory = "Earth.AppHost";
